@@ -1,0 +1,69 @@
+particlesJS('particles-js',
+{
+  "particles":{
+    "number":{
+      "value":100
+    },
+    "color":{
+      "value":["#2c3e50","#9b59b6","#2ecc71"]
+    },
+    "shape":{
+      "type":"circle",
+      "stroke":{
+        "width":1,
+        "color":"#ccc"
+      }
+    },
+    "opacity":{
+      "value":1,
+      "random":true,
+      "anim":{
+        "enable":true,
+        "speed":10
+      }
+    },
+    "size":{
+      "value": 2,
+      "random":false,
+      "anim":{
+        "enable": false,
+        "speed":30
+      }
+    },
+    "line_linked":{
+      "enable": true,
+      "distance": 120,
+      "color":"#fff",
+      "width":1
+    },
+    "move":{
+      "enable":true,
+      "speed":2,
+      "direction":"none",
+      "straight":false
+    }
+  },
+  "interactivity":{
+    "events":{
+      "onhover":{
+        "enable":true,
+        "mode":"repulse"
+      },
+      "onclick":{
+        "enable": true,
+        "mode":"push"
+      }
+    },
+    "modes":{
+      "repulse":{
+        "distance":50,
+        "duration":0.4
+      },
+      "bubble":{
+        "distance":100,
+        "size":10
+      }
+    }
+  }
+}
+);
