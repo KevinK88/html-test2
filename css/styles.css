@@ -1446,6 +1446,23 @@ a.resume-btn:active {
     font-weight: 400;
 
 }
+@media screen and (max-width: 1000px) {
+    #portfolio .portfolio-info p {
+        font-size: 10px;
+        font-weight: 200;
+    
+    }
+    #portfolio .portfolio-info h2 {
+        font-size: 14px;
+       
+    }
+    #portfolio .portfolio-info {
+        height: 60%;
+    }
+    #portfolio .links {
+        top: 20%;
+    }
+}
 
 
 /*#portfolio .portfolio-item .portfolio-link .portfolio-hover {
