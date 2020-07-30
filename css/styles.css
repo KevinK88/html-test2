@@ -1905,7 +1905,7 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 #particles-js{
-    height:1000px;
+    height:100%;
   }
   a, a:hover, a:focus, a:active {
     text-decoration: none;
