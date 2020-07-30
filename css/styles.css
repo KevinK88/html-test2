@@ -518,7 +518,7 @@ a.active {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
     /* IE6-9 */
-    height: 750px;
+    height: 1000px;
     background-attachment: fixed;
 }
 
@@ -1905,7 +1905,7 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 #particles-js{
-    height:750px;
+    height:1000px;
   }
   a, a:hover, a:focus, a:active {
     text-decoration: none;
