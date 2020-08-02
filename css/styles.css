@@ -1445,16 +1445,15 @@ a.resume-btn:active {
     font-size: 15px;
     font-weight: 400;
 
-}
-@media screen and (max-width: 1000px) {
+}@media screen and (max-width: 300px) {
     #portfolio .portfolio-info p {
-        font-size: 11px;
+        font-size: 8px;
         font-weight: 400;
     
     }
     #portfolio .portfolio-info h2 {
-        font-size: 14px;
-       
+        font-size: 10px;
+       margin-bottom: 10px;
     }
     #portfolio .portfolio-info {
         height: 60%;
@@ -1463,8 +1462,57 @@ a.resume-btn:active {
         top: 20%;
     }
 }
-
-
+@media screen and (min-width:300px) and (max-width: 1000px) {
+    #portfolio .portfolio-info p {
+        font-size: 11px;
+        font-weight: 400;
+    
+    }
+    #portfolio .portfolio-info h2 {
+        font-size: 14px;
+       margin-bottom: 10px;
+    }
+    #portfolio .portfolio-info {
+        height: 60%;
+    }
+    #portfolio .links {
+        top: 20%;
+    }
+}
+@media screen and (min-width:1000px) and (max-width: 1500px) {
+    #portfolio .portfolio-info p {
+        font-size: 11px;
+        font-weight: 400;
+    
+    }
+    #portfolio .portfolio-info h2 {
+        font-size: 12px;
+       margin-bottom: 5px;
+    }
+    #portfolio .portfolio-info {
+        height: 60%;
+    }
+    #portfolio .links {
+        top: 20%;
+    }
+}
+@media screen and (min-width:1500px) {
+    #portfolio .portfolio-info p {
+        font-size: 15px;
+        font-weight: 400;
+    
+    }
+    #portfolio .portfolio-info h2 {
+        font-size: 20px;
+       margin-bottom: 5px;
+    }
+    #portfolio .portfolio-info {
+        height: 60%;
+    }
+    #portfolio .links {
+        top: 20%;
+    }
+}
 /*#portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
