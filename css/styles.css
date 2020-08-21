@@ -497,7 +497,7 @@ a.active {
     background: url(../img/image1.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-repeat: no-repeat;
     background-color: #000;
     color: #000;
