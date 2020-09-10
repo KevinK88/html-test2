@@ -450,10 +450,10 @@ a.active {
       width: 900px;
     }*/
     .navbar-custom {
-        padding: 15px 0;
+        /* padding: 15px 0; */
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        /* background: 0 0; */
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
